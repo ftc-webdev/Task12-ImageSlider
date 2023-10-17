@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task12 - Image Slider</title>
+    
+    <script src="js/index.js" type="module"></script>
+    <style>
+        .popover {
+            position: fixed;
+            inset: 0;
+            background-color: rgba(0, 0, 0, 0.6);
+            display: grid;
+            place-items: center;
+        }
+
+        .popover__content {
+            width: 80vw;
+            text-align: center;
+            background-color: #fff;
+            padding: 1rem;
+        }
+
+        #popover-img {
+            width: 50%;
+        }
+        .hidden {
+            display: none;
+        }
+        .clickable {
+            cursor: pointer;
+        }
+    </style>
+    <!-- <link href="css/index.css" rel="stylesheet"/> -->
+</head>
+<body>
+    <h1>Task12 - Image Slider</h1>
+    <!-- 
+
+        list of images
+        current image - current controller, next, prev, last, first - list manager
+        display an image
+        zoom in/out? any other actions on the current image? display text?
+        auto scroller - timed next image - which direction?
+        linear/grid display of thumbnails - layout  - horix/vertical
+        options input object - how to configure all the options in the scroller system/widget - init()
+        module emitting events?? what hooks can we make available to outisde users - ie other coders
+
+     -->
+     <div id="kids-slider"></div>
+     <div id="kids-slider-2"></div>
+ 
+</body>
+</html>
